@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+
+  input {
+    width: 100%;
+    border: none;
+    transition: ease-in 0.1s;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+    &:focus {
+      outline: none;
+      border: 1px solid teal;
+      box-shadow: -2px -2px teal;
+    }
+
+    &:hover {
+      border-bottom: 1px solid black;
+      border: 1px solid teal;
+      box-shadow: -5px -5px teal;
+    }
+  }
+}
+
+.header {
+  font-size: 40px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  margin-bottom: 20px;
+  cursor: default;
+  transition: ease-in-out 1s;
+
+  &:hover {
+    transform: scale(1.5);
+    color: red;
+  }
+}

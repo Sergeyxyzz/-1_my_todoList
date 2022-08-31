@@ -1,0 +1,40 @@
+.operators {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .operatorsicons {
+    display: flex;
+  }
+}
+
+.filterButtons {
+  width: 100%;
+  margin-bottom: 10px;
+
+  button {
+    width: 33.3333%;
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+    background: transparent;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+
+    &:hover {
+      background: rgb(255, 219, 219);
+      box-shadow: 10px 5px 5px red;
+    }
+  }
+}
+
+.profit {
+  text-decoration: line-through;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+}
